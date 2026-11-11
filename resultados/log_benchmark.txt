@@ -1,0 +1,234 @@
+[com_solucao] forca_bruta            q=  2  t=   0.00001s  ops=           8.8  SIM=5
+[com_solucao] backtracking           q=  2  t=   0.00003s  ops=          16.0  SIM=5
+[com_solucao] divisao_conquista      q=  2  t=   0.00001s  ops=           9.0  SIM=5
+[com_solucao] programacao_dinamica   q=  2  t=   0.00001s  ops=          20.0  SIM=5
+[com_solucao] forca_bruta            q=  3  t=   0.00002s  ops=         100.6  SIM=5
+[com_solucao] backtracking           q=  3  t=   0.00002s  ops=          45.0  SIM=5
+[com_solucao] divisao_conquista      q=  3  t=   0.00001s  ops=          42.8  SIM=5
+[com_solucao] programacao_dinamica   q=  3  t=   0.00002s  ops=          62.0  SIM=5
+[com_solucao] forca_bruta            q=  4  t=   0.00068s  ops=        2775.0  SIM=5
+[com_solucao] backtracking           q=  4  t=   0.00004s  ops=          96.0  SIM=5
+[com_solucao] divisao_conquista      q=  4  t=   0.00002s  ops=          71.0  SIM=5
+[com_solucao] programacao_dinamica   q=  4  t=   0.00003s  ops=         122.8  SIM=5
+[com_solucao] forca_bruta            q=  5  t=   0.01075s  ops=       26445.6  SIM=5
+[com_solucao] backtracking           q=  5  t=   0.00007s  ops=         150.0  SIM=5
+[com_solucao] divisao_conquista      q=  5  t=   0.00005s  ops=         142.4  SIM=5
+[com_solucao] programacao_dinamica   q=  5  t=   0.00010s  ops=         272.8  SIM=5
+[com_solucao] forca_bruta            q=  6  t=   0.13466s  ops=      540821.6  SIM=5
+[com_solucao] backtracking           q=  6  t=   0.00010s  ops=         300.0  SIM=5
+[com_solucao] divisao_conquista      q=  6  t=   0.00006s  ops=         264.6  SIM=5
+[com_solucao] programacao_dinamica   q=  6  t=   0.00009s  ops=         470.8  SIM=5
+[com_solucao] forca_bruta            q=  7  t=   2.47340s  ops=     9632252.6  SIM=5
+[com_solucao] backtracking           q=  7  t=   0.00014s  ops=         504.0  SIM=5
+[com_solucao] divisao_conquista      q=  7  t=   0.00011s  ops=         508.6  SIM=5
+[com_solucao] programacao_dinamica   q=  7  t=   0.00025s  ops=        1114.0  SIM=5
+[com_solucao] forca_bruta            q=  8  t=  18.35420s  ops=    54868730.0  SIM=5
+[com_solucao] backtracking           q=  8  t=   0.00038s  ops=         472.0  SIM=5
+[com_solucao] divisao_conquista      q=  8  t=   0.00046s  ops=         837.2  SIM=5
+[com_solucao] programacao_dinamica   q=  8  t=   0.00080s  ops=        1455.2  SIM=5
+[com_solucao] backtracking           q=  9  t=   0.00054s  ops=         783.0  SIM=5
+[com_solucao] divisao_conquista      q=  9  t=   0.00071s  ops=        1730.2  SIM=5
+[com_solucao] programacao_dinamica   q=  9  t=   0.00152s  ops=        2718.4  SIM=5
+[com_solucao] backtracking           q= 10  t=   0.00063s  ops=         870.0  SIM=5
+[com_solucao] divisao_conquista      q= 10  t=   0.00070s  ops=        2865.0  SIM=5
+[com_solucao] programacao_dinamica   q= 10  t=   0.00326s  ops=        7540.0  SIM=5
+[com_solucao] backtracking           q= 11  t=   0.00042s  ops=        1331.0  SIM=5
+[com_solucao] divisao_conquista      q= 11  t=   0.00125s  ops=        6407.8  SIM=5
+[com_solucao] programacao_dinamica   q= 11  t=   0.00367s  ops=       13096.8  SIM=5
+[com_solucao] backtracking           q= 12  t=   0.00058s  ops=        1836.0  SIM=5
+[com_solucao] divisao_conquista      q= 12  t=   0.00122s  ops=        7370.6  SIM=5
+[com_solucao] programacao_dinamica   q= 12  t=   0.00513s  ops=       11614.0  SIM=5
+[com_solucao] backtracking           q= 13  t=   0.00065s  ops=        1339.0  SIM=5
+[com_solucao] divisao_conquista      q= 13  t=   0.00922s  ops=       21562.0  SIM=5
+[com_solucao] programacao_dinamica   q= 13  t=   0.02074s  ops=       35600.4  SIM=5
+[com_solucao] backtracking           q= 14  t=   0.00103s  ops=        2170.0  SIM=5
+[com_solucao] divisao_conquista      q= 14  t=   0.00743s  ops=       40266.8  SIM=5
+[com_solucao] programacao_dinamica   q= 14  t=   0.01508s  ops=       35928.4  SIM=5
+[com_solucao] backtracking           q= 15  t=   0.00044s  ops=        1335.0  SIM=5
+[com_solucao] divisao_conquista      q= 15  t=   0.02207s  ops=       92809.8  SIM=5
+[com_solucao] programacao_dinamica   q= 15  t=   0.04972s  ops=      111317.8  SIM=5
+[com_solucao] backtracking           q= 16  t=   0.00279s  ops=        4432.0  SIM=5
+[com_solucao] divisao_conquista      q= 16  t=   0.03965s  ops=      125789.2  SIM=5
+[com_solucao] programacao_dinamica   q= 16  t=   0.10012s  ops=      207713.0  SIM=5
+[com_solucao] backtracking           q= 17  t=   0.00227s  ops=        3825.0  SIM=5
+[com_solucao] divisao_conquista      q= 17  t=   0.08682s  ops=      328367.2  SIM=5
+[com_solucao] programacao_dinamica   q= 17  t=   0.19413s  ops=      422634.2  SIM=5
+[com_solucao] backtracking           q= 18  t=   0.00246s  ops=        4986.0  SIM=5
+[com_solucao] divisao_conquista      q= 18  t=   0.15812s  ops=      553729.6  SIM=5
+[com_solucao] programacao_dinamica   q= 18  t=   0.35892s  ops=      620453.8  SIM=5
+[com_solucao] backtracking           q= 19  t=   0.00566s  ops=        8360.0  SIM=5
+[com_solucao] divisao_conquista      q= 19  t=   0.21150s  ops=      728532.6  SIM=5
+[com_solucao] programacao_dinamica   q= 19  t=   1.05393s  ops=     1804962.2  SIM=5
+[com_solucao] backtracking           q= 20  t=   0.00192s  ops=        6640.0  SIM=5
+[com_solucao] divisao_conquista      q= 20  t=   0.59059s  ops=     2300270.6  SIM=5
+[com_solucao] programacao_dinamica   q= 20  t=   1.00162s  ops=     1522661.6  SIM=5
+[com_solucao] backtracking           q= 21  t=   0.00234s  ops=        6027.0  SIM=5
+[com_solucao] divisao_conquista      q= 21  t=   0.76085s  ops=     3142724.8  SIM=5
+[com_solucao] programacao_dinamica   q= 21  t=   1.69672s  ops=     2759054.8  SIM=5
+[com_solucao] backtracking           q= 22  t=   0.00237s  ops=        3938.0  SIM=5
+[com_solucao] divisao_conquista      q= 22  t=   1.35701s  ops=     6518879.2  SIM=5
+[com_solucao] programacao_dinamica   q= 22  t=   0.75843s  ops=     2016183.4  SIM=5
+[com_solucao] backtracking           q= 23  t=   0.00224s  ops=        9177.0  SIM=5
+[com_solucao] divisao_conquista      q= 23  t=   1.38441s  ops=    12123575.0  SIM=5
+[com_solucao] programacao_dinamica   q= 23  t=   3.27465s  ops=     8849183.6  SIM=5
+[com_solucao] backtracking           q= 24  t=   0.00190s  ops=        7344.0  SIM=5
+[com_solucao] divisao_conquista      q= 24  t=   8.16598s  ops=    34754777.6  SIM=5
+[com_solucao] programacao_dinamica   q= 24  t=   2.11497s  ops=     4875530.2  SIM=5
+[aleatoria  ] forca_bruta            q=  2  t=   0.00000s  ops=           7.6  SIM=5
+[aleatoria  ] backtracking           q=  2  t=   0.00001s  ops=          16.0  SIM=5
+[aleatoria  ] divisao_conquista      q=  2  t=   0.00000s  ops=           9.0  SIM=5
+[aleatoria  ] programacao_dinamica   q=  2  t=   0.00001s  ops=          20.0  SIM=5
+[aleatoria  ] forca_bruta            q=  3  t=   0.00003s  ops=         130.4  SIM=5
+[aleatoria  ] backtracking           q=  3  t=   0.00002s  ops=          45.0  SIM=5
+[aleatoria  ] divisao_conquista      q=  3  t=   0.00001s  ops=          43.0  SIM=5
+[aleatoria  ] programacao_dinamica   q=  3  t=   0.00002s  ops=          64.6  SIM=5
+[aleatoria  ] forca_bruta            q=  4  t=   0.00027s  ops=        1244.4  SIM=5
+[aleatoria  ] backtracking           q=  4  t=   0.00018s  ops=          88.0  SIM=5
+[aleatoria  ] divisao_conquista      q=  4  t=   0.00002s  ops=          71.8  SIM=5
+[aleatoria  ] programacao_dinamica   q=  4  t=   0.00003s  ops=         137.8  SIM=5
+[aleatoria  ] forca_bruta            q=  5  t=   0.00610s  ops=       25888.2  SIM=5
+[aleatoria  ] backtracking           q=  5  t=   0.00005s  ops=         155.0  SIM=5
+[aleatoria  ] divisao_conquista      q=  5  t=   0.00004s  ops=         156.0  SIM=5
+[aleatoria  ] programacao_dinamica   q=  5  t=   0.00006s  ops=         259.6  SIM=5
+[aleatoria  ] forca_bruta            q=  6  t=   0.16983s  ops=      721102.2  SIM=4
+[aleatoria  ] backtracking           q=  6  t=   0.00008s  ops=         288.0  SIM=4
+[aleatoria  ] divisao_conquista      q=  6  t=   0.00008s  ops=         264.2  SIM=4
+[aleatoria  ] programacao_dinamica   q=  6  t=   0.00011s  ops=         585.6  SIM=4
+[aleatoria  ] forca_bruta            q=  7  t=   4.31055s  ops=    17078467.4  SIM=2
+[aleatoria  ] backtracking           q=  7  t=   0.00014s  ops=         280.0  SIM=2
+[aleatoria  ] divisao_conquista      q=  7  t=   0.00011s  ops=         459.4  SIM=2
+[aleatoria  ] programacao_dinamica   q=  7  t=   0.00027s  ops=         833.2  SIM=2
+[aleatoria  ] forca_bruta            q=  8  t=  52.84385s  ops=   138619419.4  SIM=4
+[aleatoria  ] backtracking           q=  8  t=   0.00044s  ops=         384.0  SIM=4
+[aleatoria  ] divisao_conquista      q=  8  t=   0.00062s  ops=         886.6  SIM=4
+[aleatoria  ] programacao_dinamica   q=  8  t=   0.00108s  ops=        1635.8  SIM=4
+[aleatoria  ] backtracking           q=  9  t=   0.00021s  ops=         657.0  SIM=4
+[aleatoria  ] divisao_conquista      q=  9  t=   0.00073s  ops=        1712.6  SIM=4
+[aleatoria  ] programacao_dinamica   q=  9  t=   0.00129s  ops=        2967.6  SIM=4
+[aleatoria  ] backtracking           q= 10  t=   0.00033s  ops=         710.0  SIM=3
+[aleatoria  ] divisao_conquista      q= 10  t=   0.00071s  ops=        2962.8  SIM=3
+[aleatoria  ] programacao_dinamica   q= 10  t=   0.00356s  ops=        5790.4  SIM=3
+[aleatoria  ] backtracking           q= 11  t=   0.00070s  ops=        1221.0  SIM=2
+[aleatoria  ] divisao_conquista      q= 11  t=   0.00470s  ops=        6366.6  SIM=2
+[aleatoria  ] programacao_dinamica   q= 11  t=   0.00389s  ops=       11065.2  SIM=2
+[aleatoria  ] backtracking           q= 12  t=   0.00079s  ops=        2532.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 12  t=   0.00176s  ops=        9610.6  SIM=0
+[aleatoria  ] programacao_dinamica   q= 12  t=   0.00641s  ops=       11296.8  SIM=0
+[aleatoria  ] backtracking           q= 13  t=   0.00189s  ops=        3224.0  SIM=2
+[aleatoria  ] divisao_conquista      q= 13  t=   0.00379s  ops=       18807.2  SIM=2
+[aleatoria  ] programacao_dinamica   q= 13  t=   0.01150s  ops=       35121.4  SIM=2
+[aleatoria  ] backtracking           q= 14  t=   0.00104s  ops=        3528.0  SIM=2
+[aleatoria  ] divisao_conquista      q= 14  t=   0.01094s  ops=       35914.8  SIM=2
+[aleatoria  ] programacao_dinamica   q= 14  t=   0.02994s  ops=       70682.4  SIM=2
+[aleatoria  ] backtracking           q= 15  t=   0.00055s  ops=        1470.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 15  t=   0.01560s  ops=       67170.8  SIM=0
+[aleatoria  ] programacao_dinamica   q= 15  t=   0.01456s  ops=       34905.2  SIM=0
+[aleatoria  ] backtracking           q= 16  t=   0.00206s  ops=        3168.0  SIM=1
+[aleatoria  ] divisao_conquista      q= 16  t=   0.02413s  ops=      116822.0  SIM=1
+[aleatoria  ] programacao_dinamica   q= 16  t=   0.06762s  ops=      133262.8  SIM=1
+[aleatoria  ] backtracking           q= 17  t=   0.00210s  ops=        2890.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 17  t=   0.05369s  ops=      281542.8  SIM=0
+[aleatoria  ] programacao_dinamica   q= 17  t=   0.08497s  ops=      172536.2  SIM=0
+[aleatoria  ] backtracking           q= 18  t=   0.00207s  ops=        2358.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 18  t=   0.07696s  ops=      345857.0  SIM=0
+[aleatoria  ] programacao_dinamica   q= 18  t=   0.17766s  ops=      355121.6  SIM=0
+[aleatoria  ] backtracking           q= 19  t=   0.00202s  ops=        3002.0  SIM=1
+[aleatoria  ] divisao_conquista      q= 19  t=   0.17899s  ops=      946540.4  SIM=1
+[aleatoria  ] programacao_dinamica   q= 19  t=   0.11131s  ops=      241273.4  SIM=1
+[aleatoria  ] backtracking           q= 20  t=   0.00279s  ops=        4060.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 20  t=   0.42051s  ops=     2006082.8  SIM=0
+[aleatoria  ] programacao_dinamica   q= 20  t=   0.63249s  ops=     1232505.4  SIM=0
+[aleatoria  ] backtracking           q= 21  t=   0.00189s  ops=        5922.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 21  t=   0.76225s  ops=     4286470.2  SIM=0
+[aleatoria  ] programacao_dinamica   q= 21  t=   0.40129s  ops=      840420.2  SIM=0
+[aleatoria  ] backtracking           q= 22  t=   0.00258s  ops=        5698.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 22  t=   1.54589s  ops=     7628284.4  SIM=0
+[aleatoria  ] programacao_dinamica   q= 22  t=   1.84504s  ops=     3160352.0  SIM=0
+[aleatoria  ] backtracking           q= 23  t=   0.00374s  ops=        7981.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 23  t=   1.92318s  ops=     9997225.6  SIM=0
+[aleatoria  ] programacao_dinamica   q= 23  t=   3.39835s  ops=     5750539.2  SIM=0
+[aleatoria  ] backtracking           q= 24  t=   0.00408s  ops=        5904.0  SIM=0
+[aleatoria  ] divisao_conquista      q= 24  t=   2.99727s  ops=    18238548.8  SIM=0
+[aleatoria  ] programacao_dinamica   q= 24  t=   2.65348s  ops=     6943189.0  SIM=0
+salvo: D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados\exatos.csv
+[heurística] emparelhamento_maximal q=   10  t=  0.00001s  qualidade=0.700
+[heurística] guloso                 q=   10  t=  0.00013s  qualidade=0.900
+[heurística] busca_local            q=   10  t=  0.00014s  qualidade=0.900
+[heurística] emparelhamento_maximal q=   20  t=  0.00001s  qualidade=0.680
+[heurística] guloso                 q=   20  t=  0.00023s  qualidade=0.910
+[heurística] busca_local            q=   20  t=  0.00044s  qualidade=0.910
+[heurística] emparelhamento_maximal q=   50  t=  0.00002s  qualidade=0.752
+[heurística] guloso                 q=   50  t=  0.00131s  qualidade=0.928
+[heurística] busca_local            q=   50  t=  0.00151s  qualidade=0.928
+[heurística] emparelhamento_maximal q=  100  t=  0.00005s  qualidade=0.722
+[heurística] guloso                 q=  100  t=  0.00521s  qualidade=0.896
+[heurística] busca_local            q=  100  t=  0.01262s  qualidade=0.898
+[heurística] emparelhamento_maximal q=  200  t=  0.00010s  qualidade=0.726
+[heurística] guloso                 q=  200  t=  0.02174s  qualidade=0.897
+[heurística] busca_local            q=  200  t=  0.02319s  qualidade=0.899
+[heurística] emparelhamento_maximal q=  400  t=  0.00028s  qualidade=0.716
+[heurística] guloso                 q=  400  t=  0.08708s  qualidade=0.895
+[heurística] busca_local            q=  400  t=  0.08967s  qualidade=0.898
+[heurística] emparelhamento_maximal q=  700  t=  0.00075s  qualidade=0.725
+[heurística] guloso                 q=  700  t=  0.29324s  qualidade=0.898
+[heurística] busca_local            q=  700  t=  0.31773s  qualidade=0.900
+[heurística] emparelhamento_maximal q= 1000  t=  0.00097s  qualidade=0.719
+[heurística] guloso                 q= 1000  t=  0.60191s  qualidade=0.895
+[heurística] busca_local            q= 1000  t=  0.60729s  qualidade=0.900
+salvo: D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados\heuristicos.csv
+[razão] emparelhamento_maximal q=  6 m= 12  média=0.833  mín=0.600
+[razão] guloso                 q=  6 m= 12  média=0.993  mín=0.800
+[razão] busca_local            q=  6 m= 12  média=0.993  mín=0.800
+[razão] emparelhamento_maximal q=  6 m= 18  média=0.808  mín=0.600
+[razão] guloso                 q=  6 m= 18  média=0.968  mín=0.800
+[razão] busca_local            q=  6 m= 18  média=0.968  mín=0.800
+[razão] emparelhamento_maximal q=  6 m= 30  média=0.791  mín=0.667
+[razão] guloso                 q=  6 m= 30  média=0.944  mín=0.833
+[razão] busca_local            q=  6 m= 30  média=0.944  mín=0.833
+[razão] emparelhamento_maximal q=  8 m= 16  média=0.835  mín=0.571
+[razão] guloso                 q=  8 m= 16  média=0.967  mín=0.857
+[razão] busca_local            q=  8 m= 16  média=0.971  mín=0.857
+[razão] emparelhamento_maximal q=  8 m= 24  média=0.792  mín=0.500
+[razão] guloso                 q=  8 m= 24  média=0.962  mín=0.857
+[razão] busca_local            q=  8 m= 24  média=0.971  mín=0.857
+[razão] emparelhamento_maximal q=  8 m= 40  média=0.767  mín=0.625
+[razão] guloso                 q=  8 m= 40  média=0.942  mín=0.875
+[razão] busca_local            q=  8 m= 40  média=0.946  mín=0.875
+[razão] emparelhamento_maximal q= 10 m= 20  média=0.800  mín=0.625
+[razão] guloso                 q= 10 m= 20  média=0.985  mín=0.889
+[razão] busca_local            q= 10 m= 20  média=0.989  mín=0.889
+[razão] emparelhamento_maximal q= 10 m= 30  média=0.805  mín=0.556
+[razão] guloso                 q= 10 m= 30  média=0.962  mín=0.875
+[razão] busca_local            q= 10 m= 30  média=0.966  mín=0.875
+[razão] emparelhamento_maximal q= 10 m= 50  média=0.756  mín=0.600
+[razão] guloso                 q= 10 m= 50  média=0.949  mín=0.800
+[razão] busca_local            q= 10 m= 50  média=0.949  mín=0.800
+[razão] emparelhamento_maximal q= 12 m= 24  média=0.819  mín=0.636
+[razão] guloso                 q= 12 m= 24  média=0.948  mín=0.800
+[razão] busca_local            q= 12 m= 24  média=0.958  mín=0.800
+[razão] emparelhamento_maximal q= 12 m= 36  média=0.817  mín=0.636
+[razão] guloso                 q= 12 m= 36  média=0.964  mín=0.800
+[razão] busca_local            q= 12 m= 36  média=0.964  mín=0.800
+[razão] emparelhamento_maximal q= 12 m= 60  média=0.781  mín=0.636
+[razão] guloso                 q= 12 m= 60  média=0.951  mín=0.833
+[razão] busca_local            q= 12 m= 60  média=0.957  mín=0.833
+[razão] emparelhamento_maximal q= 14 m= 28  média=0.801  mín=0.615
+[razão] guloso                 q= 14 m= 28  média=0.952  mín=0.909
+[razão] busca_local            q= 14 m= 28  média=0.955  mín=0.909
+[razão] emparelhamento_maximal q= 14 m= 42  média=0.795  mín=0.615
+[razão] guloso                 q= 14 m= 42  média=0.956  mín=0.833
+[razão] busca_local            q= 14 m= 42  média=0.961  mín=0.833
+[razão] emparelhamento_maximal q= 14 m= 70  média=0.751  mín=0.615
+[razão] guloso                 q= 14 m= 70  média=0.933  mín=0.857
+[razão] busca_local            q= 14 m= 70  média=0.940  mín=0.857
+[razão] emparelhamento_maximal q= 16 m= 32  média=0.768  mín=0.643
+[razão] guloso                 q= 16 m= 32  média=0.956  mín=0.857
+[razão] busca_local            q= 16 m= 32  média=0.959  mín=0.867
+[razão] emparelhamento_maximal q= 16 m= 48  média=0.788  mín=0.643
+[razão] guloso                 q= 16 m= 48  média=0.959  mín=0.857
+[razão] busca_local            q= 16 m= 48  média=0.961  mín=0.857
+[razão] emparelhamento_maximal q= 16 m= 80  média=0.810  mín=0.733
+[razão] guloso                 q= 16 m= 80  média=0.960  mín=0.929
+[razão] busca_local            q= 16 m= 80  média=0.963  mín=0.929
+salvo: D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados\razao_aproximacao.csv
+gráficos salvos em D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados

@@ -1,0 +1,13 @@
+# Exemplo: X = professores {0,1,2,3}, Y = turmas {0,1,2,3}, Z = horários {0,1,2,3}
+# Cada tripla (x, y, z) = "professor x pode dar aula para a turma y no horário z".
+4 10
+0 0 1
+0 1 0
+1 0 0
+1 2 3
+2 1 2
+2 3 3
+3 3 2
+3 3 0
+1 1 1
+2 2 2
