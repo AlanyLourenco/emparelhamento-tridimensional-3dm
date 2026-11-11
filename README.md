@@ -198,6 +198,7 @@ busca_local            SIM      ops =    40
 Trabalho desenvolvido em grupo para a disciplina **Análise e Projeto de Algoritmos**, Instituto de Informática, Universidade Federal de Goiás, 2026/2.
 
 - **Alany Gabriely Lourenço da Silva** · [@AlanyLourenco](https://github.com/AlanyLourenco)
+- **Gabriel Appleton Salles Fleury**
 - **Thais Lima Rodrigues da Cunha**
 
 <p align="center"><sub>Distribuído sob a licença MIT. Veja <a href="LICENSE">LICENSE</a>.</sub></p>
