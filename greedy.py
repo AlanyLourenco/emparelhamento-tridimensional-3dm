@@ -1,9 +1,9 @@
 """
-guloso.py
+greedy.py
 =========
-Estratégia: ALGORITMO GULOSO.
+Estratégia: ALGORITMO GREEDY.
 
-Critério guloso: a cada passo escolhe a tripla cujos elementos são os
+Critério greedy: a cada passo escolhe a tripla cujos elementos são os
 MAIS RESTRITOS, isto é, a de menor  grau(x) + grau(y) + grau(z), onde grau
 é o nº de triplas ainda disponíveis que contêm o elemento. Intuição:
 elemento com poucas opções precisa ser atendido logo, senão fica sem par.
@@ -14,7 +14,7 @@ e atualiza os graus. Repete até não sobrar tripla.
 Propriedades:
     - Sempre devolve um emparelhamento MAXIMAL (não dá para acrescentar
       nenhuma tripla). Todo emparelhamento maximal tem tamanho ≥ ótimo/3,
-      então o guloso é uma 3-aproximação para o 3DM de otimização.
+      então o greedy é uma 3-aproximação para o 3DM de otimização.
     - Para a versão de decisão ele é INCOMPLETO: se devolve q triplas a
       resposta é SIM com certeza; se devolve menos, a resposta real pode
       ainda ser SIM (falso negativo).
@@ -26,7 +26,7 @@ Complexidade:
 """
 
 
-def guloso(inst, cont):
+def greedy(inst, cont):
     """Retorna um emparelhamento maximal (lista de triplas, tamanho ≤ q)."""
     q = inst.q
     restantes = list(dict.fromkeys(inst.triplas))
@@ -39,7 +39,7 @@ def guloso(inst, cont):
 
     M = []
     while restantes:
-        # 1) escolha gulosa: tripla de menor soma de graus
+        # 1) escolha greedy: tripla de menor soma de graus
         melhor, melhor_valor = None, None
         for t in restantes:
             cont.ops += 1                                 # operação básica

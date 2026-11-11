@@ -3,7 +3,7 @@ testes.py
 =========
 Testes de corretude: os quatro algoritmos EXATOS precisam concordar entre
 si (SIM/NÃO) e toda solução devolvida precisa passar no verificador.
-Guloso e busca local precisam devolver emparelhamentos válidos, e nunca
+Greedy e busca local precisam devolver emparelhamentos válidos, e nunca
 maiores que q.
 
 Uso:  python testes.py
@@ -16,11 +16,11 @@ from forca_bruta import forca_bruta
 from backtracking import backtracking, maior_emparelhamento
 from divisao_conquista import divisao_conquista
 from prog_dinamica import programacao_dinamica
-from guloso import guloso
+from greedy import greedy
 from aproximado import busca_local, emparelhamento_maximal
 
 EXATOS = [forca_bruta, backtracking, divisao_conquista, programacao_dinamica]
-HEURISTICOS = [emparelhamento_maximal, guloso, busca_local]
+HEURISTICOS = [emparelhamento_maximal, greedy, busca_local]
 
 
 def checa(inst):

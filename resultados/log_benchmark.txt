@@ -152,83 +152,83 @@
 [aleatoria  ] programacao_dinamica   q= 24  t=   2.65348s  ops=     6943189.0  SIM=0
 salvo: D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados\exatos.csv
 [heurística] emparelhamento_maximal q=   10  t=  0.00001s  qualidade=0.700
-[heurística] guloso                 q=   10  t=  0.00013s  qualidade=0.900
+[heurística] greedy                 q=   10  t=  0.00013s  qualidade=0.900
 [heurística] busca_local            q=   10  t=  0.00014s  qualidade=0.900
 [heurística] emparelhamento_maximal q=   20  t=  0.00001s  qualidade=0.680
-[heurística] guloso                 q=   20  t=  0.00023s  qualidade=0.910
+[heurística] greedy                 q=   20  t=  0.00023s  qualidade=0.910
 [heurística] busca_local            q=   20  t=  0.00044s  qualidade=0.910
 [heurística] emparelhamento_maximal q=   50  t=  0.00002s  qualidade=0.752
-[heurística] guloso                 q=   50  t=  0.00131s  qualidade=0.928
+[heurística] greedy                 q=   50  t=  0.00131s  qualidade=0.928
 [heurística] busca_local            q=   50  t=  0.00151s  qualidade=0.928
 [heurística] emparelhamento_maximal q=  100  t=  0.00005s  qualidade=0.722
-[heurística] guloso                 q=  100  t=  0.00521s  qualidade=0.896
+[heurística] greedy                 q=  100  t=  0.00521s  qualidade=0.896
 [heurística] busca_local            q=  100  t=  0.01262s  qualidade=0.898
 [heurística] emparelhamento_maximal q=  200  t=  0.00010s  qualidade=0.726
-[heurística] guloso                 q=  200  t=  0.02174s  qualidade=0.897
+[heurística] greedy                 q=  200  t=  0.02174s  qualidade=0.897
 [heurística] busca_local            q=  200  t=  0.02319s  qualidade=0.899
 [heurística] emparelhamento_maximal q=  400  t=  0.00028s  qualidade=0.716
-[heurística] guloso                 q=  400  t=  0.08708s  qualidade=0.895
+[heurística] greedy                 q=  400  t=  0.08708s  qualidade=0.895
 [heurística] busca_local            q=  400  t=  0.08967s  qualidade=0.898
 [heurística] emparelhamento_maximal q=  700  t=  0.00075s  qualidade=0.725
-[heurística] guloso                 q=  700  t=  0.29324s  qualidade=0.898
+[heurística] greedy                 q=  700  t=  0.29324s  qualidade=0.898
 [heurística] busca_local            q=  700  t=  0.31773s  qualidade=0.900
 [heurística] emparelhamento_maximal q= 1000  t=  0.00097s  qualidade=0.719
-[heurística] guloso                 q= 1000  t=  0.60191s  qualidade=0.895
+[heurística] greedy                 q= 1000  t=  0.60191s  qualidade=0.895
 [heurística] busca_local            q= 1000  t=  0.60729s  qualidade=0.900
 salvo: D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados\heuristicos.csv
 [razão] emparelhamento_maximal q=  6 m= 12  média=0.833  mín=0.600
-[razão] guloso                 q=  6 m= 12  média=0.993  mín=0.800
+[razão] greedy                 q=  6 m= 12  média=0.993  mín=0.800
 [razão] busca_local            q=  6 m= 12  média=0.993  mín=0.800
 [razão] emparelhamento_maximal q=  6 m= 18  média=0.808  mín=0.600
-[razão] guloso                 q=  6 m= 18  média=0.968  mín=0.800
+[razão] greedy                 q=  6 m= 18  média=0.968  mín=0.800
 [razão] busca_local            q=  6 m= 18  média=0.968  mín=0.800
 [razão] emparelhamento_maximal q=  6 m= 30  média=0.791  mín=0.667
-[razão] guloso                 q=  6 m= 30  média=0.944  mín=0.833
+[razão] greedy                 q=  6 m= 30  média=0.944  mín=0.833
 [razão] busca_local            q=  6 m= 30  média=0.944  mín=0.833
 [razão] emparelhamento_maximal q=  8 m= 16  média=0.835  mín=0.571
-[razão] guloso                 q=  8 m= 16  média=0.967  mín=0.857
+[razão] greedy                 q=  8 m= 16  média=0.967  mín=0.857
 [razão] busca_local            q=  8 m= 16  média=0.971  mín=0.857
 [razão] emparelhamento_maximal q=  8 m= 24  média=0.792  mín=0.500
-[razão] guloso                 q=  8 m= 24  média=0.962  mín=0.857
+[razão] greedy                 q=  8 m= 24  média=0.962  mín=0.857
 [razão] busca_local            q=  8 m= 24  média=0.971  mín=0.857
 [razão] emparelhamento_maximal q=  8 m= 40  média=0.767  mín=0.625
-[razão] guloso                 q=  8 m= 40  média=0.942  mín=0.875
+[razão] greedy                 q=  8 m= 40  média=0.942  mín=0.875
 [razão] busca_local            q=  8 m= 40  média=0.946  mín=0.875
 [razão] emparelhamento_maximal q= 10 m= 20  média=0.800  mín=0.625
-[razão] guloso                 q= 10 m= 20  média=0.985  mín=0.889
+[razão] greedy                 q= 10 m= 20  média=0.985  mín=0.889
 [razão] busca_local            q= 10 m= 20  média=0.989  mín=0.889
 [razão] emparelhamento_maximal q= 10 m= 30  média=0.805  mín=0.556
-[razão] guloso                 q= 10 m= 30  média=0.962  mín=0.875
+[razão] greedy                 q= 10 m= 30  média=0.962  mín=0.875
 [razão] busca_local            q= 10 m= 30  média=0.966  mín=0.875
 [razão] emparelhamento_maximal q= 10 m= 50  média=0.756  mín=0.600
-[razão] guloso                 q= 10 m= 50  média=0.949  mín=0.800
+[razão] greedy                 q= 10 m= 50  média=0.949  mín=0.800
 [razão] busca_local            q= 10 m= 50  média=0.949  mín=0.800
 [razão] emparelhamento_maximal q= 12 m= 24  média=0.819  mín=0.636
-[razão] guloso                 q= 12 m= 24  média=0.948  mín=0.800
+[razão] greedy                 q= 12 m= 24  média=0.948  mín=0.800
 [razão] busca_local            q= 12 m= 24  média=0.958  mín=0.800
 [razão] emparelhamento_maximal q= 12 m= 36  média=0.817  mín=0.636
-[razão] guloso                 q= 12 m= 36  média=0.964  mín=0.800
+[razão] greedy                 q= 12 m= 36  média=0.964  mín=0.800
 [razão] busca_local            q= 12 m= 36  média=0.964  mín=0.800
 [razão] emparelhamento_maximal q= 12 m= 60  média=0.781  mín=0.636
-[razão] guloso                 q= 12 m= 60  média=0.951  mín=0.833
+[razão] greedy                 q= 12 m= 60  média=0.951  mín=0.833
 [razão] busca_local            q= 12 m= 60  média=0.957  mín=0.833
 [razão] emparelhamento_maximal q= 14 m= 28  média=0.801  mín=0.615
-[razão] guloso                 q= 14 m= 28  média=0.952  mín=0.909
+[razão] greedy                 q= 14 m= 28  média=0.952  mín=0.909
 [razão] busca_local            q= 14 m= 28  média=0.955  mín=0.909
 [razão] emparelhamento_maximal q= 14 m= 42  média=0.795  mín=0.615
-[razão] guloso                 q= 14 m= 42  média=0.956  mín=0.833
+[razão] greedy                 q= 14 m= 42  média=0.956  mín=0.833
 [razão] busca_local            q= 14 m= 42  média=0.961  mín=0.833
 [razão] emparelhamento_maximal q= 14 m= 70  média=0.751  mín=0.615
-[razão] guloso                 q= 14 m= 70  média=0.933  mín=0.857
+[razão] greedy                 q= 14 m= 70  média=0.933  mín=0.857
 [razão] busca_local            q= 14 m= 70  média=0.940  mín=0.857
 [razão] emparelhamento_maximal q= 16 m= 32  média=0.768  mín=0.643
-[razão] guloso                 q= 16 m= 32  média=0.956  mín=0.857
+[razão] greedy                 q= 16 m= 32  média=0.956  mín=0.857
 [razão] busca_local            q= 16 m= 32  média=0.959  mín=0.867
 [razão] emparelhamento_maximal q= 16 m= 48  média=0.788  mín=0.643
-[razão] guloso                 q= 16 m= 48  média=0.959  mín=0.857
+[razão] greedy                 q= 16 m= 48  média=0.959  mín=0.857
 [razão] busca_local            q= 16 m= 48  média=0.961  mín=0.857
 [razão] emparelhamento_maximal q= 16 m= 80  média=0.810  mín=0.733
-[razão] guloso                 q= 16 m= 80  média=0.960  mín=0.929
+[razão] greedy                 q= 16 m= 80  média=0.960  mín=0.929
 [razão] busca_local            q= 16 m= 80  média=0.963  mín=0.929
 salvo: D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados\razao_aproximacao.csv
 gráficos salvos em D:\ANÁLISE E PROJETO DE ALGORITMOS\trabalho final\codigo\resultados

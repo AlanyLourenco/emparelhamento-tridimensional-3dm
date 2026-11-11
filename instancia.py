@@ -140,7 +140,7 @@ def verificar_certificado(inst, M):
 
 def eh_emparelhamento(inst, M):
     """Verifica se M é um emparelhamento VÁLIDO (não necessariamente perfeito):
-    triplas de T, duas a duas disjuntas. Usado para checar guloso/aproximado."""
+    triplas de T, duas a duas disjuntas. Usado para checar greedy/aproximado."""
     conjunto_T = set(inst.triplas)
     vistos = set()
     for (x, y, z) in M:

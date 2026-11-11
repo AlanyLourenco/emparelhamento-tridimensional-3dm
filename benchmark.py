@@ -7,7 +7,7 @@ Experimentos para a Análise de Resultados:
 para cada algoritmo, variando q.
 
 Experimento 1 (exatos): q pequeno, instâncias com e sem solução.
-Experimento 2 (guloso e busca local): q grande, mede tempo, operações e
+Experimento 2 (greedy e busca local): q grande, mede tempo, operações e
               a QUALIDADE  |M| / q  (1.0 = achou emparelhamento perfeito).
 Experimento 3 (razão de aproximação): instâncias aleatórias (sem solução
               plantada), q pequeno; compara |M| de cada heurística com o
@@ -34,7 +34,7 @@ from forca_bruta import forca_bruta
 from backtracking import backtracking, maior_emparelhamento
 from divisao_conquista import divisao_conquista
 from prog_dinamica import programacao_dinamica
-from guloso import guloso
+from greedy import greedy
 from aproximado import busca_local, emparelhamento_maximal
 
 RAPIDO = "--rapido" in sys.argv
@@ -43,7 +43,7 @@ REPETICOES = 3 if RAPIDO else 5
 FATOR_TRIPLAS = 5          # |T| ≈ 5q: região de transição de fase (instâncias mais difíceis)
 
 EXATOS = [forca_bruta, backtracking, divisao_conquista, programacao_dinamica]
-HEURISTICOS = [emparelhamento_maximal, guloso, busca_local]
+HEURISTICOS = [emparelhamento_maximal, greedy, busca_local]
 
 PASTA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resultados")
 
@@ -162,13 +162,13 @@ NOMES = {
     "forca_bruta": "Força bruta", "backtracking": "Backtracking",
     "divisao_conquista": "Divisão e conquista",
     "programacao_dinamica": "Programação dinâmica",
-    "emparelhamento_maximal": "Maximal simples", "guloso": "Guloso",
+    "emparelhamento_maximal": "Maximal simples", "greedy": "Greedy",
     "busca_local": "Busca local",
 }
 CORES = {
     "forca_bruta": "#b2182b", "backtracking": "#2166ac",
     "divisao_conquista": "#1b7837", "programacao_dinamica": "#762a83",
-    "emparelhamento_maximal": "#8c510a", "guloso": "#01665e",
+    "emparelhamento_maximal": "#8c510a", "greedy": "#01665e",
     "busca_local": "#c51b7d",
 }
 

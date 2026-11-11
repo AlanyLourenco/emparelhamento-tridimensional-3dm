@@ -19,7 +19,7 @@ from forca_bruta import forca_bruta
 from backtracking import backtracking
 from divisao_conquista import divisao_conquista
 from prog_dinamica import programacao_dinamica
-from guloso import guloso
+from greedy import greedy
 from aproximado import busca_local, emparelhamento_maximal
 
 ALGORITMOS = {
@@ -28,7 +28,7 @@ ALGORITMOS = {
     "divisao_conquista": divisao_conquista,
     "programacao_dinamica": programacao_dinamica,
     "maximal_simples": emparelhamento_maximal,
-    "guloso": guloso,
+    "greedy": greedy,
     "busca_local": busca_local,
 }
 
@@ -49,7 +49,7 @@ def main():
 
         if M is not None and len(M) == inst.q and verificar_certificado(inst, M):
             resp = "SIM"
-        elif nome in ("maximal_simples", "guloso", "busca_local"):
+        elif nome in ("maximal_simples", "greedy", "busca_local"):
             resp = f"não encontrou (achou {len(M)} de {inst.q})"
         else:
             resp = "NÃO"

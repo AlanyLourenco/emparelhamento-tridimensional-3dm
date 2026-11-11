@@ -13,7 +13,7 @@
 <p align="center">
   <b>Trabalho final de Análise e Projeto de Algoritmos (INF/UFG, 2026/2)</b><br>
   Implementação e análise de força bruta, backtracking, divisão e conquista,<br>
-  programação dinâmica, algoritmo guloso e algoritmo aproximado para o <i>3-Dimensional Matching</i>.
+  programação dinâmica, algoritmo greedy e algoritmo aproximado para o <i>3-Dimensional Matching</i>.
 </p>
 
 ---
@@ -78,7 +78,7 @@ flowchart LR
 | Backtracking | [`backtracking.py`](backtracking.py) | MRV dinâmico + verificação adiante | `O(m^(q+1)/q!)` | `O(q·m)` |
 | Divisão e conquista | [`divisao_conquista.py`](divisao_conquista.py) | *Meet-in-the-middle*: perfis (A, B) por metade de X | `O(q·D^(q/2))` | `O(q·D^(q/2))` |
 | Programação dinâmica | [`prog_dinamica.py`](prog_dinamica.py) | Estados (A ⊆ Y, B ⊆ Z) em máscaras de bits | `O(D·4^q/√q)` | `O(C(2q,q))` |
-| Guloso | [`guloso.py`](guloso.py) | Tripla com elementos mais restritos primeiro | `O(q·m)` | `O(m+q)` |
+| Greedy | [`greedy.py`](greedy.py) | Tripla com elementos mais restritos primeiro | `O(q·m)` | `O(m+q)` |
 | Aproximado | [`aproximado.py`](aproximado.py) | Maximal (≥ OPT/3) + busca local 1→2 (≥ OPT/2) | `O(q·m²)` | `O(m+q)` |
 
 <sub>q = elementos por conjunto · m = número de triplas · D = maior número de triplas que contém um mesmo elemento de X</sub>
@@ -110,7 +110,7 @@ Intel Core i7-1165G7 · Python 3.10 · média de 5 instâncias por ponto · seme
 - 🧠 **Divisão e conquista / PD**: exponenciais, mas com fator de cerca de 1,5 por unidade de q, pois reaproveitam estados.
 - ✅ **760 execuções exatas** com respostas idênticas, todas confirmadas pelo verificador.
 
-### Guloso e aproximados
+### Greedy e aproximados
 
 <p align="center">
   <img src="resultados/heuristicos.png" alt="Tempo e qualidade das heurísticas" width="85%">
@@ -120,7 +120,7 @@ Intel Core i7-1165G7 · Python 3.10 · média de 5 instâncias por ponto · seme
 | Heurística | Cobertura em q = 1.000 | Tempo | Razão média \|M\|/OPT | Garantia teórica |
 |---|---:|---:|---:|---:|
 | Maximal simples | 72% | 1 ms | ≈ 0,79 | ≥ 1/3 |
-| Guloso | 89,5% | 0,60 s | ≈ 0,96 | ≥ 1/3 |
+| Greedy | 89,5% | 0,60 s | ≈ 0,96 | ≥ 1/3 |
 | Busca local | 90,0% | 0,61 s | ≈ 0,96 | ≥ 1/2 |
 
 > ⚠️ Nenhuma heurística encontrou o emparelhamento perfeito plantado com q ≥ 10. Para a versão de decisão, teriam respondido “não” quando a resposta certa era “sim”.
@@ -136,7 +136,7 @@ pip install -r requirements.txt     # só matplotlib, usado apenas nos gráficos
 
 python testes.py                    # corretude: 404 instâncias
 python main.py exemplo.txt          # todos os algoritmos sobre o exemplo
-python main.py exemplo.txt guloso   # um algoritmo específico
+python main.py exemplo.txt greedy   # um algoritmo específico
 python benchmark.py --rapido        # experimentos curtos
 python benchmark.py                 # experimentos completos (~10 min)
 ```
@@ -151,7 +151,7 @@ backtracking           SIM      ops =    40
 divisao_conquista      SIM      ops =    23
 programacao_dinamica   SIM      ops =    16
 maximal_simples        SIM      ops =    10
-guloso                 SIM      ops =    40
+greedy                 SIM      ops =    40
 busca_local            SIM      ops =    40
 ```
 
@@ -169,7 +169,7 @@ busca_local            SIM      ops =    40
 ├── backtracking.py       # 2. backtracking (+ branch-and-bound para o ótimo)
 ├── divisao_conquista.py  # 3. divisão e conquista (meet-in-the-middle)
 ├── prog_dinamica.py      # 4. programação dinâmica sobre subconjuntos
-├── guloso.py             # 5. algoritmo guloso
+├── greedy.py             # 5. algoritmo greedy
 ├── aproximado.py         # 6. maximal simples e busca local
 ├── main.py               # executa os algoritmos sobre um arquivo
 ├── testes.py             # testes de corretude

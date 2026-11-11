@@ -13,8 +13,8 @@ Algoritmo em duas fases:
       ótimo conflita com alguma escolhida, e cada escolhida bloqueia no
       máximo 3 triplas do ótimo (uma por coordenada).
       - emparelhamento_maximal(): versão mais simples, ordem arbitrária, O(m).
-      - busca_local() usa a solução do GULOSO (também maximal, e em geral
-        melhor), de modo que o resultado final é sempre ≥ o do guloso.
+      - busca_local() usa a solução do GREEDY (também maximal, e em geral
+        melhor), de modo que o resultado final é sempre ≥ o do greedy.
 
   Fase 2 — Busca local com trocas "1 sai, 2 entram"
   (ideia de Hurkens & Schrijver, 1989, para k-set packing):
@@ -25,14 +25,14 @@ Algoritmo em duas fases:
       vale |M| ≥ OPT / 2 para k = 3  (razão (k+1)/2).
 
 Complexidade:
-    - Fase 1: O(m) (maximal simples) ou O(q · m) (guloso)
+    - Fase 1: O(m) (maximal simples) ou O(q · m) (greedy)
     - Cada melhoria aumenta |M| em 1  =>  no máximo q melhorias.
     - Cada busca por melhoria: O(m) para classificar as triplas pelos
       conflitos + O(Σ c_s²) para procurar pares (c_s = candidatas de s).
     - Tempo: O(q · (m + Σ c_s²)) ≤ O(q · m²);  espaço: O(m + q).
 """
 
-from guloso import guloso
+from greedy import greedy
 
 
 def emparelhamento_maximal(inst, cont):
@@ -86,7 +86,7 @@ def busca_local(inst, cont):
     """Retorna um emparelhamento (lista de triplas) de tamanho ≥ OPT/2."""
     q = inst.q
     T = list(dict.fromkeys(inst.triplas))
-    M = guloso(inst, cont)                       # Fase 1 (solução maximal)
+    M = greedy(inst, cont)                       # Fase 1 (solução maximal)
     while len(M) < q:                            # Fase 2
         novo = _procura_melhoria(T, M, q, cont)
         if novo is None:
