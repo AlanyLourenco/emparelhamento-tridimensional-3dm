@@ -78,7 +78,7 @@ flowchart LR
 | Backtracking | [`backtracking.py`](backtracking.py) | MRV dinâmico + verificação adiante | `O(m^(q+1)/q!)` | `O(q·m)` |
 | Divisão e conquista | [`divisao_conquista.py`](divisao_conquista.py) | *Meet-in-the-middle*: perfis (A, B) por metade de X | `O(q·D^(q/2))` | `O(q·D^(q/2))` |
 | Programação dinâmica | [`prog_dinamica.py`](prog_dinamica.py) | Estados (A ⊆ Y, B ⊆ Z) em máscaras de bits | `O(D·4^q/√q)` | `O(C(2q,q))` |
-| Greedy | [`greedy.py`](greedy.py) | Tripla com elementos mais restritos primeiro | `O(q·m)` | `O(m+q)` |
+| Guloso (greedy) | [`greedy.py`](greedy.py) | Tripla com elementos mais restritos primeiro | `O(q·m)` | `O(m+q)` |
 | Aproximado | [`aproximado.py`](aproximado.py) | Maximal (≥ OPT/3) + busca local 1→2 (≥ OPT/2) | `O(q·m²)` | `O(m+q)` |
 
 <sub>q = elementos por conjunto · m = número de triplas · D = maior número de triplas que contém um mesmo elemento de X</sub>
